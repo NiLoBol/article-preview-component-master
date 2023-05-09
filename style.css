@@ -1,12 +1,11 @@
-
 :root {
   --VeryDarkGrayisBlue: hsl(217, 19%, 35%);
   --DesaturatedDarkBlue: hsl(214, 17%, 51%);
   --GrayishBlue: hsl(212, 23%, 69%);
   --LightGrayishBlue: hsl(210, 46%, 95%);
 }
-body{
-  font-family: 'Manrope', sans-serif;
+body {
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
 }
 
@@ -103,8 +102,8 @@ body{
   visibility: visible;
   pointer-events: auto;
 }
-.boder25{
-  border-radius: 25px 0 0 25px  ;
+.boder25 {
+  border-radius: 25px 0 0 25px;
 }
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
@@ -125,6 +124,10 @@ body{
   background: var(--VeryDarkGrayisBlue);
   color: #ffffff;
 }
+.github.nohover:hover {
+  background: var(--LightGrayishBlue) !important;
+  color: #ffffff;
+}
 .wrapper .github:hover .tooltip {
   width: 250px;
   height: 50px;
@@ -136,22 +139,22 @@ body{
   background: #cd201f;
   color: #ffffff;
 }
-.icon:hover .share.shareswap{
+.icon:hover .share.shareswap {
   content: url("images/icon-share.svg");
 }
 
-h1,.name1{
+h1,
+.name1 {
   color: var(--VeryDarkGrayisBlue);
 }
-h1{
+h1 {
   font-weight: 700;
   font-size: 1.5rem;
 }
-p,.name2{
+p,
+.name2 {
   color: var(--DesaturatedDarkBlue);
 }
-
-
 
 /* mobile */
 
@@ -165,7 +168,7 @@ p,.name2{
   .mobile {
     display: unset;
   }
-  .mobile.ab-shear{
+  .mobile.ab-shear {
     display: none;
   }
   .wrapper .github.tooltip,
@@ -173,24 +176,26 @@ p,.name2{
     background: var(--VeryDarkGrayisBlue);
     color: #ffffff;
   }
-  .boder25{
-    border-radius: 25px 25px 0 0   ;
+  .boder25 {
+    border-radius: 25px 25px 0 0;
   }
   .github.github2,
   .github.github2 ::before {
     background: var(--DesaturatedDarkBlue);
     color: #ffffff;
   }
-  .me1{
+  .me1 {
     margin-right: 28px;
   }
-  .h80{
+  .h80 {
     height: 80px;
   }
-  .h112{
+  .h112 {
     height: 112px;
   }
-  .boder252{
-    border-radius: 0 0  25px 25px;
+  .boder252 {
+    border-radius: 0 0 25px 25px;
   }
+
+  
 }
