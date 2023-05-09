@@ -1,9 +1,15 @@
+
 :root {
   --VeryDarkGrayisBlue: hsl(217, 19%, 35%);
   --DesaturatedDarkBlue: hsl(214, 17%, 51%);
   --GrayishBlue: hsl(212, 23%, 69%);
   --LightGrayishBlue: hsl(210, 46%, 95%);
 }
+body{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+}
+
 .h100 {
   height: 100vh;
 }
@@ -138,7 +144,7 @@ h1,.name1{
   color: var(--VeryDarkGrayisBlue);
 }
 h1{
-  
+  font-weight: 700;
   font-size: 1.5rem;
 }
 p,.name2{

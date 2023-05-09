@@ -19,6 +19,12 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Article preview component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body
     class="h100 d-flex justify-content-center align-items-center bg-LightGrayishBlue"
@@ -39,7 +45,10 @@
             you make any room feel complete.
           </p>
 
-          <div class="row justify-content-center mb-xl-0 h112 align-items-center my-0 "id="share">
+          <div
+            class="row justify-content-center mb-xl-0 h112 align-items-center my-0"
+            id="share"
+          >
             <div class="col-3">
               <img
                 class="profile w-100 d-flex"
@@ -68,22 +77,23 @@
                       </div>
                     </div>
                   </span>
-                  <img class="share shareswap" src="images/icon-share2.svg" alt="" />
+                  <img
+                    class="share shareswap"
+                    src="images/icon-share2.svg"
+                    alt=""
+                  />
                 </li>
               </ul>
-              <ul
-                class="wrapper p-0 mobile"
-                onclick="handleShareClick()"
-              >
+              <ul class="wrapper p-0 mobile" onclick="handleShareClick()">
                 <li class="icon github m-0">
-                  <img class="share " src="images/icon-share2.svg" alt="" />
+                  <img class="share" src="images/icon-share2.svg" alt="" />
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-12 bg-VeryDarkGrayisBlue p-0 boder252" >
+      <div class="col-12 bg-VeryDarkGrayisBlue p-0 boder252">
         <div class="justify-content-center mobile ab-shear my-3" id="shareDiv">
           <div class="row ms-5 me1 h80 align-items-center">
             <div class="col-10">
@@ -136,8 +146,6 @@
         shareUl.style.display = "flex";
         shareDiv.style.display = "none";
       }
-
-
     </script>
   </body>
 </html>
