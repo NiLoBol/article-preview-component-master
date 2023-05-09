@@ -155,7 +155,9 @@ p,
 .name2 {
   color: var(--DesaturatedDarkBlue);
 }
-
+.w700{
+  font-weight: 700;
+}
 /* mobile */
 
 @media (max-width: 500px) {
